@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   const audio = $('audio');
   // Вставь сюда свой публичный Jamendo Client ID один раз, перед публикацией.
-  const JAMENDO_CLIENT_ID = 'ВСТАВЬ_СЮДА_СВОЙ_CLIENT_ID';
+  const JAMENDO_CLIENT_ID = 'b4b71acf';
   const read = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
   const state = {
     tracks: [], current: null, queue: [], view: 'home', myWave: false, playedWaveIds: new Set(), myWaveMode: false,
